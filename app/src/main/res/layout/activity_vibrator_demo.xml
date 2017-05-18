@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    tools:context="com.example.makkhay.viberatorapp.VibratorDemoActivity">
+
+
+    <Button
+        android:id="@+id/vibrateButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vibrateButton1"
+        android:layout_alignStart="@+id/vibrateButton1"
+        android:layout_below="@+id/vibrateButton1"
+        android:layout_marginTop="63dp"
+        android:onClick="onVibrateButton"
+        android:text="Medium Vibrate" />
+
+    <Button
+        android:id="@+id/vibrateButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="Long Vibrate" />
+
+    <Button
+        android:id="@+id/vibrateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vibrateButton2"
+        android:layout_alignStart="@+id/vibrateButton2"
+        android:layout_below="@+id/vibrateButton2"
+        android:layout_marginTop="72dp"
+        android:onClick="onVibrateButton"
+        android:text="Short Vibrate" />
+
+
+</RelativeLayout>
